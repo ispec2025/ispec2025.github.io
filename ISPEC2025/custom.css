@@ -22,7 +22,7 @@ body {
 
 @media (min-width: 768px) {
   .site-background {
-    background: url("../img/bg-ks.jpg"); no-repeat center center transparent;
+    background: url("../img/bg-ks.jpg") no-repeat center center transparent;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -900,4 +900,26 @@ a {
     -webkit-transition: color 0.2s;
     transition: color 0.2s;
 }
+@media (min-width:768px) {
+  .mastnav .mastnav-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+    align-items: center;
+    padding-left: 0;
+    margin: 0;
+  }
 
+  .mastnav .mastnav-nav > li {
+    flex: 0 0 auto;
+    margin: 0px 0px;
+    width: auto;
+  }
+
+  .mastnav .mastnav-nav > li > a {
+    white-space: normal;
+    word-break: break-word;
+    padding: 6px 8px;
+    line-height: 1.1;
+  }
+}
